@@ -1,0 +1,29 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "This is the source code for my porfolio currently found at mattnordstrand.com",
+  "main": "index.html",
+  "scripts": {
+    "lite": "lite-server",
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatthewNordstrand/portfolio.git"
+  },
+  "author": "Matthew Nordstrand",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatthewNordstrand/portfolio/issues"
+  },
+  "homepage": "https://github.com/MatthewNordstrand/portfolio#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}
