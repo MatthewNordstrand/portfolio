@@ -9,18 +9,22 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
 
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
 
     <title>Matt Nordstrand - Full Stack Web Developer</title>
 </head>
 <body>
-    <div class="container">
-        <div class="row">
+    <div class="container-fluid">
+        <div class="row align-items-end text-center half-height">
             <div class="col-12">
-                <h1>Hello World!</h1>
+                <h1 class="slide-in">Matt Nordstrand</h1>
             </div>
+            
+        </div>
+        <div class="row align-items-start text-center half-height">
             <div class="col-12">
-                <p>I'm still working on this. Just wanted to hold my domain for now :)</p>
+                <p class="slide-in">Full Stack Web Developer</p>
+                <button type="button" class="btn btn-outline-dark btn-lg appear-in" onclick="NotifyOfTest()">View Portfolio</button>
             </div>
         </div>
     </div>
@@ -29,5 +33,6 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
