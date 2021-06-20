@@ -1,46 +1,33 @@
 .half-height {
-    height: 50vh;
-}
+  height: 50vh; }
 
 .full-height {
-    height: 100vh;
-}
+  height: 100vh; }
 
 #portfolioContainer {
-    display: none;
-}
+  display: none; }
 
 body {
-    background-image: linear-gradient(#FFFFFF, #404040);
-}
+  background-image: linear-gradient(#FFFFFF, #404040); }
 
 .slide-in {
-    animation: slide-up 0.75s ease;
-}
+  animation: slide-up 0.75s ease; }
 
 @keyframes slide-up {
-    0% {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
+  0% {
+    opacity: 0;
+    transform: translateY(20px); }
+  100% {
+    opacity: 1;
+    transform: translateY(0); } }
 
 .appear-in {
-    animation: appear 1s ease;
-}
+  animation: appear 1s ease; }
 
 @keyframes appear {
-    0% {
-        opacity: 0;
-    }
-    75% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
+  0% {
+    opacity: 0; }
+  75% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
