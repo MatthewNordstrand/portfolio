@@ -1,7 +1,3 @@
-.half-height {
-    height: 50vh;
-}
-
 .full-height {
     height: 100vh;
 }
@@ -42,5 +38,18 @@ body {
     }
     100% {
         opacity: 1;
+    }
+}
+
+.disappear-out {
+    animation: disappear 1s ease;
+}
+
+@keyframes disappear {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
     }
 }
