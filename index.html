@@ -8,7 +8,7 @@
 
     <!-- build:css css/main.css -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
     <link rel="stylesheet" href="css/styles.css">
     <!-- endbuild -->
@@ -24,18 +24,39 @@
                 </div>
                 <div class="col-12">
                     <p class="slide-in">Full Stack Web Developer</p>
-                    <button type="button" class="btn btn-outline-dark btn-lg appear-in" onclick="NotifyOfTest()">View Portfolio</button>
+                    <button id="viewBtn" type="button" class="btn btn-outline-dark btn-lg appear-in">View Portfolio</button>
                 </div>
                 <div class="col-12 text-center appear-in mt-1">
-                    <a class="btn btn-social-icon btn-linkedin btn-lg" href="https://www.linkedin.com/in/matthew-nordstrand-1a022b6b/" target="_blank"><i class="fa fa-linkedin"></i></a>
-                    <a class="btn btn-social-icon btn-github btn-lg" href="https://github.com/MatthewNordstrand" target="_blank"><i class="fa fa-github"></i></a>
+                    <a class="btn btn-social-icon btn-linkedin btn-lg" href="https://www.linkedin.com/in/matthew-nordstrand-1a022b6b/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a class="btn btn-social-icon btn-github btn-lg" href="https://github.com/MatthewNordstrand" target="_blank"><i class="fab fa-github"></i></a>
                 </div>
             </div>
         </div>
         <div id="portfolioContainer" class="full-height">
             <div class="row">
-                <div class="col-12">
-                    <h1>Matt Nordstrand</h1>
+                <h2 class="col-12">Matt Nordstrand</h2>
+                <div class="col-lg-4">
+                    <p class="col-12 pl-5 description">Hi. My name is Matt and I am a Full Stack Web Developer. Feel free to reach out to me at any of my socials and check out my various portfolio projects.</p>
+                    <div class="col-12 text-center appear-in mb-3">
+                        <a class="btn btn-social-icon btn-linkedin btn-lg" href="https://www.linkedin.com/in/matthew-nordstrand-1a022b6b/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a class="btn btn-social-icon btn-github btn-lg" href="https://github.com/MatthewNordstrand" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                    <div class="col-lg-10 offset-lg-1">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3 class="card-title">Skills</h3>
+                                <div class="card-body">
+                                    <ul>
+                                        <li><i class="fab fa-bootstrap"></i> Bootstrap</li>
+                                        <li><i class="fab fa-react"></i> React / React Native</li>
+                                        <li><i class="fab fa-node-js"></i> NodeJS</li>
+                                        <li><i class="fa fa-database"></i> mongoDB</li>
+                                        <li><i class="fab fa-git"></i> GIT</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

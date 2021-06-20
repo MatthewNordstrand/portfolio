@@ -1,4 +1,8 @@
-function NotifyOfTest() {
+document.getElementById("viewBtn").addEventListener("click", showMore);
+
+showMore(); //Delete this line before deployment.
+
+function showMore() {
     let frame = document.getElementById("nameContainer").classList.add("disappear-out");
 
     setTimeout(switchFrames, 1000);
