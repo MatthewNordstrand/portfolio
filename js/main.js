@@ -1,6 +1,6 @@
 document.getElementById("viewBtn").addEventListener("click", showMore);
 
-showMore(); //Delete this line before deployment.
+//showMore(); //Delete this line before deployment.
 
 function showMore() {
     document.getElementById("nameContainer").classList.add("disappear-out");
