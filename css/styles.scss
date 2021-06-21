@@ -1,3 +1,12 @@
+//Colors
+$color-primary: #FFFFFF;
+$color-secondry: #000000;
+
+$transparent-primary: #FFFFFF00;
+
+$gradient_primary: linear-gradient(to right, $color-primary, $color-primary, $transparent-primary);
+
+//Rules
 .full-height {
     min-height: 100vh;
 }
@@ -25,6 +34,14 @@ ul {
     list-style-type: none;
 }
 
+.glass {
+    border: none;
+    border-left: 2px solid $color-secondry;
+    background-color: transparent;
+    background-image: $gradient_primary;
+}
+
+//Animations
 .slide-in {
     animation: slide-up 0.75s ease;
 }

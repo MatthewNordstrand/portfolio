@@ -19,6 +19,12 @@ body {
 ul {
   list-style-type: none; }
 
+.glass {
+  border: none;
+  border-left: 2px solid #000000;
+  background-color: transparent;
+  background-image: linear-gradient(to right, #FFFFFF, #FFFFFF, #FFFFFF00); }
+
 .slide-in {
   animation: slide-up 0.75s ease; }
 
