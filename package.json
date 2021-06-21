@@ -4,10 +4,11 @@
   "description": "This is the source code for my porfolio currently found at mattnordstrand.com",
   "main": "index.html",
   "scripts": {
-    "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin",
+    "build": "npm run clean && npm run imagemin && npm run imagemin2 && npm run copyfonts && npm run usemin",
     "clean": "rimraf dist",
     "copyfonts": "copyfiles -f node_modules/@fortawesome/fontawesome-free/webfonts/* dist/webfonts",
     "imagemin": "imagemin img/* -o dist/img",
+    "imagemin2": "imagemin img/thumbnails/* -o dist/img/thumbnails",
     "usemin": "usemin index.html -d dist --htmlmin -o dist/index.html",
     "lite": "lite-server",
     "scss": "node-sass -o css/ css/",
