@@ -2,9 +2,11 @@
 $color-primary: #FFFFFF;
 $color-secondry: #000000;
 
+$partial-primary: #ffffffa9;
+
 $transparent-primary: #FFFFFF00;
 
-$gradient_primary: linear-gradient(to right, $color-primary, $color-primary, $color-primary, $transparent-primary);
+$gradient_primary: linear-gradient(to right, $color-primary, $transparent-primary);
 
 //Rules
 .full-height {
@@ -19,6 +21,19 @@ body {
     //background-image: linear-gradient(#FFFFFF, #404040);
     background-image: url("../img/clouds.png");
     background-color: gray;
+}
+
+.name-label-bg {
+    background-color: $partial-primary;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.name-card-bg {
+    position: fixed;
+    z-index: -1;
+    left: 0;
+    bottom: 0;
 }
 
 .card-body {
